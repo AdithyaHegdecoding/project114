@@ -1,0 +1,20 @@
+h2{
+    font-size: 50px;
+    color: white;
+    background-color: saddlebrown;
+}
+body{
+    background-image: url("background.png");
+}
+canvas{
+    z-index: 10;
+    background-color: white;
+    animation-name: abc;
+animation-duration:5s;
+animation-iteration-count: infinite;
+
+}
+@keyframes abc{
+    from{box-shadow:1px 1px 500px red;}
+    to{box-shadow:1px 1px 500px yellow;}
+}
